@@ -44,7 +44,6 @@ class PhotoFrameActivity: AppCompatActivity() {  // 5초에 한번씩 이미지 
 
     override fun onDestroy() {
         super.onDestroy()
-
         timer?.cancel()
     }
 
